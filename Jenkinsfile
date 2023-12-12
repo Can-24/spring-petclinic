@@ -18,7 +18,7 @@ pipeline {
         script {
           def dockerImage
           // Docker-Build und Tag des Images
-          dockerImage = docker.build("Can-24/spring-petclinic:${BUILD_NUMBER}")
+          dockerImage = docker.build("can-24/spring-petclinic:${BUILD_NUMBER}")
           // Docker-Login und Push
           withCredentials([usernamePassword(credentialsId: env.DOCKER_CREDENTIALS, usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
             docker.withRegistry(env.DOCKER_REGISTRY, env.DOCKER_CREDENTIALS) {
