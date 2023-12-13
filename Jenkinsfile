@@ -4,7 +4,6 @@ pipeline {
     stage('Checkout') {
       steps {
         script {
-          // Ersetze den Pfad durch den richtigen Pfad zu deinem Desktop
           dir(DESKTOP_PATH) {
             git(
               url: 'https://github.com/Can-24/spring-petclinic.git',
