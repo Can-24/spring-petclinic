@@ -8,7 +8,7 @@ pipeline {
             git(
               url: 'https://github.com/Can-24/spring-petclinic.git',
               branch: 'main',
-              credentialsId: 'github'
+              credentialsId: 'github_1'
             )
           }
         }
