@@ -4,13 +4,12 @@ pipeline {
     stage('Checkout') {
       steps {
         script {
-          dir(DESKTOP_PATH) {
-            git(
-              url: 'https://github.com/Can-24/spring-petclinic.git',
-              branch: 'main',
-              credentialsId: 'github_1'
-            )
-          }
+          git(
+            url: 'https://github.com/Can-24/spring-petclinic.git',
+            branch: 'main',
+            credentialsId: 'github_1',
+            directory: "${DESKTOP_PATH}/spring-petclinic-1"
+          )
         }
 
       }
@@ -20,7 +19,7 @@ pipeline {
       steps {
         script {
           dir('C:\\Users\\Can\\Desktop\\spring-petclinic-1') {
-            //Führe Maven-Build aus
+            //Fuehre Maven-Build aus
             bat 'mvn clean package'
           }
         }
