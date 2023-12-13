@@ -30,6 +30,16 @@ pipeline {
       }
     }
 
+    stage('Debug') {
+      steps {
+        script {
+          sh 'ls -la'
+          sh 'ls -la target'
+        }
+
+      }
+    }
+
   }
   environment {
     DOCKER_REGISTRY = '"https://registry.hub.docker.com"'
