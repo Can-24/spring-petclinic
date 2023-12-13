@@ -3,13 +3,28 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git(url: 'https://github.com/Can-24/spring-petclinic.git', branch: 'main')
+        script {
+          dir(DESKTOP_PATH) {
+            git(
+              url: 'https://github.com/Can-24/spring-petclinic.git',
+              branch: 'main',
+              credentialsId: 'github_1'
+            )
+          }
+        }
+
       }
     }
 
     stage('Build and Package Spring PetClinic') {
       steps {
-        bat 'mvn clean package'
+        script {
+          dir('C:\\Users\\Can\\Desktop\\spring-petclinic-1') {
+            //Führe Maven-Build aus
+            bat 'mvn clean package'
+          }
+        }
+
       }
     }
 
@@ -34,5 +49,6 @@ pipeline {
   environment {
     DOCKER_REGISTRY = '"https://registry.hub.docker.com"'
     DOCKER_CREDENTIALS = '\'docker-hub-credentials\''
+    DESKTOP_PATH = '\'C:\\\\Users\\\\Can\\\\Desktop\''
   }
 }
