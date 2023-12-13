@@ -49,6 +49,6 @@ pipeline {
   environment {
     DOCKER_REGISTRY = '"https://registry.hub.docker.com"'
     DOCKER_CREDENTIALS = '\'docker-hub-credentials\''
-    DESKTOP_PATH = '"C:/Users/Can/Desktop"'
+    DESKTOP_PATH = '\'C:\\\\Users\\\\Can\\\\Desktop\''
   }
 }
