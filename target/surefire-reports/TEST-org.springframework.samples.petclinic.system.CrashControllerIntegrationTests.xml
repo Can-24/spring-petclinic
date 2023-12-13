@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.springframework.samples.petclinic.system.CrashControllerIntegrationTests" time="1.623" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.springframework.samples.petclinic.system.CrashControllerIntegrationTests" time="1.731" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="git.tags" value=""/>
     <property name="java.specification.version" value="17"/>
@@ -11,21 +11,21 @@
     <property name="git.build.host" value="DESKTOP-3O82A38"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="git.build.number" value="54"/>
+    <property name="git.build.number" value="58"/>
     <property name="user.variant" value=""/>
-    <property name="git.commit.id" value="49de853f4831304c6f645f2c04d1edce3db68fed"/>
+    <property name="git.commit.id" value="eebb5d462031a5750563f0cc6874334e56300171"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="catalina.useNaming" value="false"/>
     <property name="user.timezone" value="Europe/Berlin"/>
     <property name="org.jboss.logging.provider" value="slf4j"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="git.commit.author.time" value="2023-12-13T11:36:36+0100"/>
+    <property name="git.commit.author.time" value="2023-12-13T11:55:14+0100"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="DE"/>
     <property name="git.build.user.name" value="Your Name"/>
     <property name="sun.boot.library.path" value="C:\tools\java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Can\AppData\Local\Temp\surefire6595150728436583179\surefirebooter-20231213115207417_3.jar C:\Users\Can\AppData\Local\Temp\surefire6595150728436583179 2023-12-13T11-52-07_152-jvmRun1 surefire-20231213115207417_1tmp surefire_0-20231213115207417_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Can\AppData\Local\Temp\surefire14910207969111944465\surefirebooter-20231213160158453_3.jar C:\Users\Can\AppData\Local\Temp\surefire14910207969111944465 2023-12-13T16-01-58_244-jvmRun1 surefire-20231213160158453_1tmp surefire_0-20231213160158453_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Can\Desktop\spring-petclinic-1\target\test-classes;C:\Users\Can\Desktop\spring-petclinic-1\target\classes;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.2.0\spring-boot-starter-actuator-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.0\spring-boot-starter-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.0\spring-boot-starter-logging-3.2.0.jar;C:\Users\Can\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Can\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\Can\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\Can\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Can\.m2\repository\org\slf4j\jul-to-slf4j\2.0.9\jul-to-slf4j-2.0.9.jar;C:\Users\Can\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Can\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.2.0\spring-boot-actuator-autoconfigure-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-actuator\3.2.0\spring-boot-actuator-3.2.0.jar;C:\Users\Can\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar;C:\Users\Can\.m2\repository\io\micrometer\micrometer-observation\1.12.0\micrometer-observation-1.12.0.jar;C:\Users\Can\.m2\repository\io\micrometer\micrometer-commons\1.12.0\micrometer-commons-1.12.0.jar;C:\Users\Can\.m2\repository\io\micrometer\micrometer-jakarta9\1.12.0\micrometer-jakarta9-1.12.0.jar;C:\Users\Can\.m2\repository\io\micrometer\micrometer-core\1.12.0\micrometer-core-1.12.0.jar;C:\Users\Can\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\Can\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-cache\3.2.0\spring-boot-starter-cache-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\spring-context-support\6.1.1\spring-context-support-6.1.1.jar;C:\Users\Can\.m2\repository\org\springframework\spring-beans\6.1.1\spring-beans-6.1.1.jar;C:\Users\Can\.m2\repository\org\springframework\spring-context\6.1.1\spring-context-6.1.1.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.0\spring-boot-starter-data-jpa-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.0\spring-boot-starter-aop-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\spring-aop\6.1.1\spring-aop-6.1.1.jar;C:\Users\Can\.m2\repository\org\aspectj\aspectjweaver\1.9.20.1\aspectjweaver-1.9.20.1.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.0\spring-boot-starter-jdbc-3.2.0.jar;C:\Users\Can\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\Can\.m2\repository\org\springframework\spring-jdbc\6.1.1\spring-jdbc-6.1.1.jar;C:\Users\Can\.m2\repository\org\hibernate\orm\hibernate-core\6.3.1.Final\hibernate-core-6.3.1.Final.jar;C:\Users\Can\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Can\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Can\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\Can\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Can\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\Can\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\Can\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\Can\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.4\jaxb-runtime-4.0.4.jar;C:\Users\Can\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.4\jaxb-core-4.0.4.jar;C:\Users\Can\.m2\repository\org\eclipse\angus\angus-activation\2.0.1\angus-activation-2.0.1.jar;C:\Users\Can\.m2\repository\org\glassfish\jaxb\txw2\4.0.4\txw2-4.0.4.jar;C:\Users\Can\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Can\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Can\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\Can\.m2\repository\org\springframework\data\spring-data-jpa\3.2.0\spring-data-jpa-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\data\spring-data-commons\3.2.0\spring-data-commons-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\spring-orm\6.1.1\spring-orm-6.1.1.jar;C:\Users\Can\.m2\repository\org\springframework\spring-tx\6.1.1\spring-tx-6.1.1.jar;C:\Users\Can\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Can\.m2\repository\org\springframework\spring-aspects\6.1.1\spring-aspects-6.1.1.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.0\spring-boot-starter-web-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.0\spring-boot-starter-json-3.2.0.jar;C:\Users\Can\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.0\spring-boot-starter-tomcat-3.2.0.jar;C:\Users\Can\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.16\tomcat-embed-core-10.1.16.jar;C:\Users\Can\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.16\tomcat-embed-websocket-10.1.16.jar;C:\Users\Can\.m2\repository\org\springframework\spring-web\6.1.1\spring-web-6.1.1.jar;C:\Users\Can\.m2\repository\org\springframework\spring-webmvc\6.1.1\spring-webmvc-6.1.1.jar;C:\Users\Can\.m2\repository\org\springframework\spring-expression\6.1.1\spring-expression-6.1.1.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.2.0\spring-boot-starter-validation-3.2.0.jar;C:\Users\Can\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.16\tomcat-embed-el-10.1.16.jar;C:\Users\Can\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\Can\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.2.0\spring-boot-starter-thymeleaf-3.2.0.jar;C:\Users\Can\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.2.RELEASE\thymeleaf-spring6-3.1.2.RELEASE.jar;C:\Users\Can\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\Can\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\Can\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.0\spring-boot-starter-test-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-test\3.2.0\spring-boot-test-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.0\spring-boot-test-autoconfigure-3.2.0.jar;C:\Users\Can\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\Can\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\Can\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\Can\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Can\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\Can\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\Can\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Can\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\Can\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\Can\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Can\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Can\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Can\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\Can\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\Can\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\Can\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\Can\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\Can\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Can\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\Can\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\Can\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Can\.m2\repository\org\springframework\spring-core\6.1.1\spring-core-6.1.1.jar;C:\Users\Can\.m2\repository\org\springframework\spring-jcl\6.1.1\spring-jcl-6.1.1.jar;C:\Users\Can\.m2\repository\org\springframework\spring-test\6.1.1\spring-test-6.1.1.jar;C:\Users\Can\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\Can\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\Can\.m2\repository\com\mysql\mysql-connector-j\8.1.0\mysql-connector-j-8.1.0.jar;C:\Users\Can\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar;C:\Users\Can\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\Can\.m2\repository\javax\cache\cache-api\1.1.1\cache-api-1.1.1.jar;C:\Users\Can\.m2\repository\com\github\ben-manes\caffeine\caffeine\3.1.8\caffeine-3.1.8.jar;C:\Users\Can\.m2\repository\com\google\errorprone\error_prone_annotations\2.21.1\error_prone_annotations-2.21.1.jar;C:\Users\Can\.m2\repository\org\webjars\npm\bootstrap\5.3.2\bootstrap-5.3.2.jar;C:\Users\Can\.m2\repository\org\webjars\npm\font-awesome\4.7.0\font-awesome-4.7.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-devtools\3.2.0\spring-boot-devtools-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot\3.2.0\spring-boot-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.0\spring-boot-autoconfigure-3.2.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-testcontainers\3.2.0\spring-boot-testcontainers-3.2.0.jar;C:\Users\Can\.m2\repository\org\testcontainers\testcontainers\1.19.3\testcontainers-1.19.3.jar;C:\Users\Can\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Can\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\Can\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Can\.m2\repository\org\rnorth\duct-tape\duct-tape\1.0.8\duct-tape-1.0.8.jar;C:\Users\Can\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\Can\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Can\.m2\repository\com\github\docker-java\docker-java-transport-zerodep\3.3.4\docker-java-transport-zerodep-3.3.4.jar;C:\Users\Can\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Can\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Can\.m2\repository\org\springframework\boot\spring-boot-docker-compose\3.2.0\spring-boot-docker-compose-3.2.0.jar;C:\Users\Can\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Can\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Can\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\Can\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar;C:\Users\Can\.m2\repository\org\testcontainers\junit-jupiter\1.19.3\junit-jupiter-1.19.3.jar;C:\Users\Can\.m2\repository\org\testcontainers\mysql\1.19.3\mysql-1.19.3.jar;C:\Users\Can\.m2\repository\org\testcontainers\jdbc\1.19.3\jdbc-1.19.3.jar;C:\Users\Can\.m2\repository\org\testcontainers\database-commons\1.19.3\database-commons-1.19.3.jar;C:\Users\Can\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\Can\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -35,13 +35,13 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2023-10-17"/>
     <property name="java.home" value="C:\tools\java\jdk-17"/>
-    <property name="git.total.commit.count" value="962"/>
+    <property name="git.total.commit.count" value="969"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\Can\Desktop\spring-petclinic-1"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="git.build.user.email" value="you@example.com"/>
-    <property name="git.commit.committer.time" value="2023-12-13T11:36:36+0100"/>
+    <property name="git.commit.committer.time" value="2023-12-13T11:55:14+0100"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="windows-1252"/>
@@ -49,8 +49,8 @@
     <property name="git.closest.tag.name" value=""/>
     <property name="git.local.branch.ahead" value="0"/>
     <property name="git.build.time" value="2023-05-10T09:42:50+0200"/>
-    <property name="surefire.real.class.path" value="C:\Users\Can\AppData\Local\Temp\surefire6595150728436583179\surefirebooter-20231213115207417_3.jar"/>
-    <property name="git.commit.message.full" value="Added Jenkinsfile"/>
+    <property name="surefire.real.class.path" value="C:\Users\Can\AppData\Local\Temp\surefire14910207969111944465\surefirebooter-20231213160158453_3.jar"/>
+    <property name="git.commit.message.full" value="Merge branch &apos;main&apos; of https://github.com/Can-24/spring-petclinic"/>
     <property name="junit.platform.listeners.uid.tracking.enabled" value="true"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,40 +61,40 @@
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="git.commit.user.email" value="145071099+Can-24@users.noreply.github.com"/>
+    <property name="git.commit.user.email" value="you@example.com"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="git.local.branch.behind" value="0"/>
+    <property name="git.local.branch.behind" value="2"/>
     <property name="git.dirty" value="true"/>
     <property name="localRepository" value="C:\Users\Can\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Can\AppData\Local\Temp\"/>
-    <property name="catalina.home" value="C:\Users\Can\AppData\Local\Temp\tomcat.0.12000026593137219115"/>
+    <property name="catalina.home" value="C:\Users\Can\AppData\Local\Temp\tomcat.0.8346426596155730380"/>
     <property name="com.zaxxer.hikari.pool_number" value="4"/>
     <property name="java.version" value="17.0.9"/>
     <property name="user.dir" value="C:\Users\Can\Desktop\spring-petclinic-1"/>
     <property name="os.arch" value="amd64"/>
-    <property name="git.commit.user.name" value="Can-24"/>
-    <property name="git.commit.id.abbrev" value="49de853"/>
+    <property name="git.commit.user.name" value="Your Name"/>
+    <property name="git.commit.id.abbrev" value="eebb5d4"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="22184"/>
-    <property name="git.commit.id.describe-short" value="49de853-dirty"/>
+    <property name="PID" value="6852"/>
+    <property name="git.commit.id.describe-short" value="eebb5d4-dirty"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
-    <property name="git.commit.id.describe" value="49de853-dirty"/>
-    <property name="catalina.base" value="C:\Users\Can\AppData\Local\Temp\tomcat.0.11052962942985059057"/>
+    <property name="git.commit.id.describe" value="eebb5d4-dirty"/>
+    <property name="catalina.base" value="C:\Users\Can\AppData\Local\Temp\tomcat.0.3206437046367614021"/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\tools\java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Users\Can\Desktop\DevOps\apache-maven-3.9.5\bin;C:\Program Files\PuTTY\;C:\Users\Can\Desktop\DevOps\apache-maven-3.9.5\bin;C:\tools\java\jdk-17\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Can\AppData\Local\Microsoft\WindowsApps;;C:\Users\Can\AppData\Local\Programs\Microsoft VS Code\bin;."/>
-    <property name="git.commit.message.short" value="Added Jenkinsfile"/>
+    <property name="git.commit.message.short" value="Merge branch &apos;main&apos; of https://github.com/Can-24/spring-petclinic"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
-    <property name="git.commit.time" value="2023-12-13T11:36:36+0100"/>
+    <property name="git.commit.time" value="2023-12-13T11:55:14+0100"/>
     <property name="git.remote.origin.url" value="https://github.com/Can-24/spring-petclinic.git"/>
   </properties>
-  <testcase name="testTriggerExceptionHtml" classname="org.springframework.samples.petclinic.system.CrashControllerIntegrationTests" time="0.094">
-    <system-out><![CDATA[2023-12-13T11:53:19.828+01:00  INFO 22184 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+  <testcase name="testTriggerExceptionHtml" classname="org.springframework.samples.petclinic.system.CrashControllerIntegrationTests" time="0.108">
+    <system-out><![CDATA[2023-12-13T16:03:08.693+01:00  INFO 6852 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
 
 
               |\      _,,,--,,_
@@ -111,20 +111,20 @@
 :: Built with Spring Boot :: 3.2.0
 
 
-2023-12-13T11:53:19.860+01:00  INFO 22184 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : Starting CrashControllerIntegrationTests using Java 17.0.9 with PID 22184 (started by Can in C:\Users\Can\Desktop\spring-petclinic-1)
-2023-12-13T11:53:19.860+01:00  INFO 22184 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
-2023-12-13T11:53:20.434+01:00  INFO 22184 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2023-12-13T11:53:20.435+01:00  INFO 22184 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-12-13T11:53:20.436+01:00  INFO 22184 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
-2023-12-13T11:53:20.466+01:00  INFO 22184 --- [           main] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2023-12-13T11:53:20.467+01:00  INFO 22184 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 602 ms
-2023-12-13T11:53:21.181+01:00  INFO 22184 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
-2023-12-13T11:53:21.226+01:00  INFO 22184 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 62325 (http) with context path ''
-2023-12-13T11:53:21.228+01:00  INFO 22184 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : Started CrashControllerIntegrationTests in 1.4 seconds (process running for 73.663)
-2023-12-13T11:53:21.246+01:00  INFO 22184 --- [o-auto-4-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-12-13T11:53:21.246+01:00  INFO 22184 --- [o-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-12-13T11:53:21.246+01:00  INFO 22184 --- [o-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2023-12-13T11:53:21.254+01:00 ERROR 22184 --- [o-auto-4-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown] with root cause
+2023-12-13T16:03:08.728+01:00  INFO 6852 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : Starting CrashControllerIntegrationTests using Java 17.0.9 with PID 6852 (started by Can in C:\Users\Can\Desktop\spring-petclinic-1)
+2023-12-13T16:03:08.728+01:00  INFO 6852 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2023-12-13T16:03:09.291+01:00  INFO 6852 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2023-12-13T16:03:09.293+01:00  INFO 6852 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-13T16:03:09.293+01:00  INFO 6852 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-13T16:03:09.320+01:00  INFO 6852 --- [           main] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-12-13T16:03:09.320+01:00  INFO 6852 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 592 ms
+2023-12-13T16:03:10.117+01:00  INFO 6852 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+2023-12-13T16:03:10.166+01:00  INFO 6852 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 64085 (http) with context path ''
+2023-12-13T16:03:10.174+01:00  INFO 6852 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : Started CrashControllerIntegrationTests in 1.481 seconds (process running for 71.566)
+2023-12-13T16:03:10.192+01:00  INFO 6852 --- [o-auto-4-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-13T16:03:10.192+01:00  INFO 6852 --- [o-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-13T16:03:10.194+01:00  INFO 6852 --- [o-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-12-13T16:03:10.202+01:00 ERROR 6852 --- [o-auto-4-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown] with root cause
 
 java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown
 	at org.springframework.samples.petclinic.system.CrashController.triggerException(CrashController.java:33) ~[classes/:na]
@@ -185,8 +185,8 @@ java.lang.RuntimeException: Expected: controller used to showcase what happens w
 
 ]]></system-out>
   </testcase>
-  <testcase name="testTriggerExceptionJson" classname="org.springframework.samples.petclinic.system.CrashControllerIntegrationTests" time="0.088">
-    <system-out><![CDATA[2023-12-13T11:53:21.342+01:00 ERROR 22184 --- [o-auto-4-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown] with root cause
+  <testcase name="testTriggerExceptionJson" classname="org.springframework.samples.petclinic.system.CrashControllerIntegrationTests" time="0.1">
+    <system-out><![CDATA[2023-12-13T16:03:10.304+01:00 ERROR 6852 --- [o-auto-4-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown] with root cause
 
 java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown
 	at org.springframework.samples.petclinic.system.CrashController.triggerException(CrashController.java:33) ~[classes/:na]

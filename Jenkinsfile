@@ -32,7 +32,7 @@ pipeline {
         script {
           def dockerImage
           // Docker-Build und Tag des Images
-          dir("${DESKTOP_PATH}/spring-petclinic-1") {
+          dir("${DESKTOP_PATH}/spring-petclinic-1\target") {
             dockerImage = docker.build("can24/spring-petclinic:${env.BUILD_ID}", "-f Dockerfile .")
           }
           // Docker-Login und Push
