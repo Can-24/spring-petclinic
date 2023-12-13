@@ -13,28 +13,18 @@ pipeline {
       }
     }
 
-    stage('Publish Docker Image') {
+    stage('Build & Publish Docker Image') {
       steps {
         script {
           def dockerImage
           // Docker-Build und Tag des Images
-          dockerImage = docker.build("can24/spring-petclinic:${env.BuildID}")
+          dockerImage = docker.build("can24/spring-petclinic:${env.BUILD_ID}")
           // Docker-Login und Push
           withCredentials([usernamePassword(credentialsId: env.DOCKER_CREDENTIALS, usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
             docker.withRegistry(env.DOCKER_REGISTRY, env.DOCKER_CREDENTIALS) {
               dockerImage.push()
             }
           }
-        }
-
-      }
-    }
-
-    stage('Debug') {
-      steps {
-        script {
-          sh 'ls -la'
-          sh 'ls -la target'
         }
 
       }
