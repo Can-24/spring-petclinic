@@ -20,7 +20,7 @@ pipeline {
       steps {
         script {
           dir('C:\\Users\\Can\\Desktop\\spring-petclinic-1') {
-            //Führe Maven-Build aus
+            //Fuehre Maven-Build aus
             bat 'mvn clean package'
           }
         }
