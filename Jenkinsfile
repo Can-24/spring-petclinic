@@ -9,7 +9,14 @@ pipeline {
 
     stage('Build and Package Spring PetClinic') {
       steps {
-        bat 'mvn clean package'
+        script {
+          // Ändere temporär das Arbeitsverzeichnis
+          dir('C:\\Users\\Can\\Desktop\\spring-petclinic-1') {
+            //Führe Maven-Build aus
+            bat 'mvn clean package'
+          }
+        }
+
       }
     }
 
