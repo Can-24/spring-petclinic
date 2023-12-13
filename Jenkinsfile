@@ -3,7 +3,17 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git(url: 'https://github.com/Can-24/spring-petclinic.git', branch: 'main', credentialsId: 'github')
+        script {
+          // Ersetze den Pfad durch den richtigen Pfad zu deinem Desktop
+          dir(DESKTOP_PATH) {
+            git(
+              url: 'https://github.com/Can-24/spring-petclinic.git',
+              branch: 'main',
+              credentialsId: 'github'
+            )
+          }
+        }
+
       }
     }
 
@@ -40,5 +50,6 @@ pipeline {
   environment {
     DOCKER_REGISTRY = '"https://registry.hub.docker.com"'
     DOCKER_CREDENTIALS = '\'docker-hub-credentials\''
+    DESKTOP_PATH = '\'C:/Users/Can/Desktop\''
   }
 }
